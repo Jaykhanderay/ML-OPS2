@@ -14,3 +14,6 @@ Syntax : 1) Docker push username/Repository_name:tag
 basically tag is the version of your image that is generated from the dockerfile
 dockerfile has the all instructions that are needed to build the image .
 
+# You can access my image from the dockerhub
+docker pull jayv4567/jay_v:1.0
+
