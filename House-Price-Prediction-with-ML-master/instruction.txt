@@ -1,0 +1,16 @@
+COMMANDS THAT YOU NEED TO RUN IN YOUR TERMINAL 
+
+1) Tag to the image first by the fowllowing command
+# Syntax:- 1) docker tag local_image_name dockerhub_username/repository_name:tag
+# Example:- 1) docker tag my_ml_model_image jayv4567/jay_v:1.0
+2) Now to see our docker image type the following command
+# Docker images
+3) Time to push the image on the docker hub .Must be ensure that you have Account on the docker hub to push the image .you can sync the github account with the docker hub and create repository in the docker hub and type the 
+following command
+#Syntax:- 1) docker push jayv4567/jay_v:1.0
+Syntax : 1) Docker push username/Repository_name:tag 
+
+
+basically tag is the version of your image that is generated from the dockerfile
+dockerfile has the all instructions that are needed to build the image .
+
